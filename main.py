@@ -1,7 +1,7 @@
 from tkinter import *
 import requests
 
-api = "https://api.kanye.rest"
+api = "https://api.taylor.rest"
 
 def get_quote():
     response = requests.get(api)
